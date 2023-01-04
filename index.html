@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assests/css/bootstrap.css">
+  <title>Chocolife</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <div class="container">
+      <a class="navbar-brand" href="#">Chocolife</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Contactos</a>
+          </li>
+        </ul>
+
+        <button class="btn btn-dark" type="submit">Search</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Corosel -->
+  <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assests/img/carousel-1.jpg" class="d-block w-100" alt="imagem1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Alegria</h5>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderito.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assests/img/carousel-2.JPG" class="d-block w-100" alt="imagem2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Encomenda especial</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderito./p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assests/img/carousel-3.JPG" class="d-block w-100" alt="iamgem3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Os mais pequenos</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderito.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+
+  <!-- Descritive text-->
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="text-center col-md-4">
+        <h1 class="display-4">Chocolife</h1>
+        <p class="lead">
+          <b>
+            <i>Sinta a Doçura da vida</i>
+          </b>
+        </p>
+      </div>
+
+      <p class="text-justify col-md-8">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus iusto, voluptates dolores ullam nisi velit
+        modi commodi cupiditate praesentium, nihil quo culpa molestias illum vitae doloribus dolor architecto labore
+        exercitationem.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum veritatis laudantium aperiam quia ipsa
+        accusamus reprehenderit atque praesentium optio rerum! Esse soluta est pariatur maxime enim quos facilis,
+        accusantium nihil?
+        <a href="perfil.html">Mais...</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Cards -->
+  <div class="container mt-5">
+    <h1 class="text-center display-4">Produtos</h1>
+
+    <div class="row justify-content-sm-center">
+
+      <div class="col-sm-6 col-md-4">
+        <div class="card mb-5">
+          <img src="./assests/img/card/1.jpg" class="card-img-top" alt="card1">
+          <div class="card-body">
+            <h4 class="card-title">Mars Mini</h4>
+            <h6 class="card-subtitle text-muted mb-2">Mini</h6>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Preço: 10kz</li>
+            <li class="list-group-item">Percentagem de Açucar: 75%</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Mais...</a>
+          </div>
+          <div class="card-footer">
+            Chocolife: Sinta a Doçura da Vida
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="card mb-5">
+          <img src="./assests/img/card/2.jpg" class="card-img-top" alt="card1">
+          <div class="card-body">
+            <h4 class="card-title">Pacimo de Frutas</h4>
+            <h6 class="card-subtitle text-muted mb-2">Pacimo</h6>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Preço: 50kz</li>
+            <li class="list-group-item">Percentagem de Açucar: 50%</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Mais...</a>
+          </div>
+          <div class="card-footer">
+            Chocolife: Sinta a Doçura da Vida
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="card mb-5">
+          <img src="./assests/img/card/3.jpg" class="card-img-top" alt="card1">
+          <div class="card-body">
+            <h4 class="card-title">Pacimo Torem</h4>
+            <h6 class="card-subtitle text-muted mb-2">Pacimo</h6>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Preço:50kz</li>
+            <li class="list-group-item">Percentagem de Açucar: 64%</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Mais...</a>
+          </div>
+          <div class="card-footer">
+            Chocolife: Sinta a Doçura da Vida
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Take care of your hygiene -->
+    <div class="container">
+      <div class="row justify-content-sm-center">
+        <div class="col-sm-9">
+          <h1 class="display-4">Cuide da Sua Higiene Detária</h1>
+          <p class="text-justify">
+            Higiene dentária é fundamental para prevenir o desenvolvimeto de cáries e de doenças nas gengivas. O seu objectivo é muito concreto: eliminar, com certa frequência, a placa dentária em contínua formação. Este objectivo alcança-se basicamente com a regular escovagem do dentes, devidamente complementada com o uso do fio dental.
+            <a href="dicas.html">
+              Mais...
+            </a>
+          </p>
+        </div>
+        <div class="col-sm-3">
+          <img src="./assests/img/chocosmile.jpg" alt="chocosmile">
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 mb-3">
+          <hr>
+        </div>
+        <div class="col-sm-4">
+          <h4 class="text-center">Social</h4>
+          <div class="btn-group-vertical btn-block w-100" role="group">
+            <a href="#" class="btn btn-outline-primary">Facebook</a>
+            <a href="#" class="btn btn-outline-info">Twitter</a>
+            <a href="#" class="btn btn-outline-warning">Instagram</a>
+          </div>
+        </div>
+        
+        <div class="col-12 mt-3">
+          <blockquote class="blockquote text-center">
+            <p>Todos os Direitos Reservados</p>
+            <div class="blockquote-footer">Copyright-2022 <cite title="Título">Chocolife</cite></div>
+          </blockquote>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assests/js/bootstrap.js"></script>
+</body>
+
+</html>
